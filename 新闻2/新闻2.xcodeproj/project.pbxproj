@@ -13,7 +13,6 @@
 		36B2ABA31BBAA7FB00486CB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36B2ABA11BBAA7FB00486CB0 /* LaunchScreen.xib */; };
 		36B2ABAF1BBAA7FC00486CB0 /* __2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B2ABAE1BBAA7FC00486CB0 /* __2Tests.m */; };
 		36B2ABBC1BBAB39A00486CB0 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B2ABBB1BBAB39A00486CB0 /* News.storyboard */; };
-		36B2ABBF1BBAB3F100486CB0 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B2ABBE1BBAB3F100486CB0 /* NewsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 		36B2ABAD1BBAA7FC00486CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36B2ABAE1BBAA7FC00486CB0 /* __2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __2Tests.m; sourceTree = "<group>"; };
 		36B2ABBB1BBAB39A00486CB0 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = News.storyboard; path = ../../News.storyboard; sourceTree = "<group>"; };
-		36B2ABBD1BBAB3F100486CB0 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
-		36B2ABBE1BBAB3F100486CB0 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				36B2ABBB1BBAB39A00486CB0 /* News.storyboard */,
-				36B2ABBD1BBAB3F100486CB0 /* NewsTableViewController.h */,
-				36B2ABBE1BBAB3F100486CB0 /* NewsTableViewController.m */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -243,7 +238,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B2ABBF1BBAB3F100486CB0 /* NewsTableViewController.m in Sources */,
 				36B2AB981BBAA7FB00486CB0 /* AppDelegate.m in Sources */,
 				36B2AB951BBAA7FB00486CB0 /* main.m in Sources */,
 			);
